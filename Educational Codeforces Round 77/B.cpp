@@ -1,0 +1,41 @@
+/**
+*     All limitations are self-imposed. – Oliver Wendell Holmes
+**/
+
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+#define pb push_back
+void solve()
+{
+  
+int a,b;
+cin>>a>>b;
+int mn=min(a,b);
+int mx=max(a,b);
+if((mx<=2*mn) and (mx+mn)%3==0)
+{
+  cout<<"YES"<<endl;
+}
+else
+{
+  cout<<"NO"<<endl;
+}
+
+
+}
+int32_t main()
+{ 
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+  int t;
+  t=1;
+  cin>>t;
+  while(t--)
+  {
+    solve();
+  }
+
+
+  return 0;
+}
